@@ -48,18 +48,20 @@ BMI = الوزن / (الطول بالمتر × الطول بالمتر)
 > ملاحظة: يتم تحويل الطول من سنتيمتر إلى متر داخل الكود.
 
 ---
+## 🖥️ الشاشات / 📸 Screenshots
 
-## 🖥️ الشاشات
-
-## 📸 Screenshots
-
-### 🏠 Home Screen
-
-![Home Screen](screenshots/home_screen.jpg)
-
-### 📊 Result Screen
-
-![Result Screen](screenshots/result_screen.jpg)
+<table>
+  <tr>
+    <td>
+      <p align="center">🏠 Home Screen</p>
+      <img src="screenshots/home_screen.jpg" alt="Home Screen" width="200"/>
+    </td>
+    <td>
+      <p align="center">📊 Result Screen</p>
+      <img src="screenshots/result_screen.jpg" alt="Result Screen" width="200"/>
+    </td>
+  </tr>
+</table>
 
 ---
 
@@ -122,22 +124,12 @@ flutter pub get
 
 * طلاب Flutter
 * مشاريع تدريبية
-* Tasks جامعية
-* فهم أساسيات Navigation و State Management
-
 ---
 
-## 📝 ملاحظات
 
-* لا يحتوي المشروع على أي Assets أو صور
-* الكود مكتوب بطريقة بسيطة مناسبة للمبتدئين
-
----
 
 ## 👨‍💻 المطور
 
 تم تنفيذ التطبيق كجزء من تدريب عملي على Flutter.
 
 ---
-
-✨ **بالتوفيق، ولو حابب تطويرات إضافية (UI – Animation – Firebase) نقدر نكمل بسهولة** 💪
