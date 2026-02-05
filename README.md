@@ -1,16 +1,143 @@
-# my_app
+# 📱 BMI Calculator (Flutter)
 
-A new Flutter project.
+## 🧠 فكرة التطبيق
 
-## Getting Started
+تطبيق **BMI Calculator** هو تطبيق مبني باستخدام **Flutter** لحساب مؤشر كتلة الجسم (Body Mass Index) بناءً على:
 
-This project is a starting point for a Flutter application.
+* الطول (cm)
+* الوزن (kg)
 
-A few resources to get you started if this is your first Flutter project:
+ويعرض للمستخدم حالته الصحية:
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+* Underweight
+* Normal
+* Overweight
+* Obese
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+---
+
+## 🧩 مميزات التطبيق
+
+* واجهة بسيطة وسهلة الاستخدام
+* دعم Dark Mode
+* Slider لاختيار الطول
+* أزرار (+ / -) لتغيير الوزن والعمر
+* حساب BMI بدقة
+* شاشة نتائج واضحة في منتصف الشاشة
+* زر لإعادة الحساب
+
+---
+
+## 🗂️ هيكل المشروع
+
+```
+lib/
+ ├─ main.dart
+ ├─ home_screen.dart
+ └─ result_screen.dart
+```
+
+---
+
+## 📐 معادلة حساب BMI
+
+```
+BMI = الوزن / (الطول بالمتر × الطول بالمتر)
+```
+
+> ملاحظة: يتم تحويل الطول من سنتيمتر إلى متر داخل الكود.
+
+---
+
+## 🖥️ الشاشات
+
+## 📸 Screenshots
+
+### 🏠 Home Screen
+
+![Home Screen](screenshots/home_screen.jpg)
+
+### 📊 Result Screen
+
+![Result Screen](screenshots/result_screen.jpg)
+
+---
+
+## 🖥️ الشاشات
+
+### 1️⃣ Home Screen
+
+* اختيار الجنس (Male / Female)
+* تحديد الطول باستخدام Slider
+* تحديد الوزن والعمر باستخدام أزرار
+* زر Calculate للانتقال لشاشة النتيجة
+
+> هذه الشاشة من نوع **StatefulWidget** لأن البيانات تتغير.
+
+---
+
+### 2️⃣ Result Screen
+
+* عرض حالة الجسم (Normal / Overweight...)
+* عرض قيمة BMI
+* تغيير لون النص حسب النتيجة
+* زر Re-Calculate للرجوع للشاشة الأولى
+
+> هذه الشاشة من نوع **StatelessWidget** لأنها تعرض بيانات فقط.
+
+---
+
+## 🚀 تشغيل المشروع
+
+### 1. تثبيت الحزم
+
+```bash
+flutter pub get
+```
+
+### 2. تشغيل التطبيق
+
+```bash
+flutter run
+```
+
+> في حالة وجود مشاكل، يُفضل تنفيذ:
+
+```bash
+flutter clean
+flutter pub get
+```
+
+---
+
+## ⚙️ المتطلبات
+
+* Flutter SDK >= 3.0.0
+* Dart SDK >= 3.0.0
+* Android Studio أو VS Code
+
+---
+
+## 🧑‍🎓 مناسب لـ
+
+* طلاب Flutter
+* مشاريع تدريبية
+* Tasks جامعية
+* فهم أساسيات Navigation و State Management
+
+---
+
+## 📝 ملاحظات
+
+* لا يحتوي المشروع على أي Assets أو صور
+* الكود مكتوب بطريقة بسيطة مناسبة للمبتدئين
+
+---
+
+## 👨‍💻 المطور
+
+تم تنفيذ التطبيق كجزء من تدريب عملي على Flutter.
+
+---
+
+✨ **بالتوفيق، ولو حابب تطويرات إضافية (UI – Animation – Firebase) نقدر نكمل بسهولة** 💪
